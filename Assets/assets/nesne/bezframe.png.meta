@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0a1c606e4b5151643a16d7d2a23f925e
+guid: 634592c18f1382f43b7f99db5aef4bd7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6454430940383882478
-    second: bez_0
+      213: -4976044780484352391
+    second: bezframe_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bez_0
+      name: bezframe_0
       rect:
         serializedVersion: 2
-        x: 939
-        y: 527
-        width: 73
-        height: 45
+        x: 381
+        y: 1008
+        width: 2782
+        height: 1274
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eec2fd44ebeb29950800000000000000
-      internalID: 6454430940383882478
+      spriteID: 9762bc8e2a981fab0800000000000000
+      internalID: -4976044780484352391
       vertices: []
       indices: 
       edges: []
