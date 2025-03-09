@@ -1,4 +1,5 @@
 
+using System;
 using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -51,6 +52,46 @@ public class PanelManager : MonoBehaviour, IPointerClickHandler
         {
             
             StartCoroutine(ClosePanel());
+        }
+    }
+
+    public void DolapPanel()
+    {
+        Equip selectedEquip = InventoryManager.Instance.GetSelectedEquip();
+
+        if (panelType == PanelType.Extra && selectedEquip != null && selectedEquip.EquipSO.equipType == requiredEquipType)
+        {
+            panelImages[currentState++].gameObject.SetActive(true);
+        }
+        if (currentState >= panelImages.Length)
+        {
+            StartCoroutine(ClosePanel());
+        }
+    }
+
+    public void OpenImage()
+    {
+        Equip selectedEquip = InventoryManager.Instance.GetSelectedEquip();
+
+        if (panelType == PanelType.Extra && selectedEquip != null && selectedEquip.EquipSO.equipType == requiredEquipType)
+        {
+            panelImage.gameObject.SetActive(true);
+            InventoryManager.Instance.DeleteEquip();
+            InventoryManager.Instance.RemoveSelectedEquip();
+            panel.SetActive(false);
+        }
+    }
+
+    public void ChangePanel()
+    {
+        Equip selectedEquip = InventoryManager.Instance.GetSelectedEquip();
+
+        if (panelType == PanelType.Extra && selectedEquip != null && selectedEquip.EquipSO.equipType == requiredEquipType)
+        {
+            panelImage.gameObject.SetActive(true);
+            InventoryManager.Instance.DeleteEquip();
+            InventoryManager.Instance.RemoveSelectedEquip();
+            panel.SetActive(false);
         }
     }
 

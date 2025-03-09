@@ -12,5 +12,11 @@ public enum EquipType
     Kep,
     Dart,
     Bez,
-    Anahtar
+    Anahtar,
+    Aský,
+    Helikopter,
+    Kamyon,
+    Robot,
+    Cekic,
+
 }

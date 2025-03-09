@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2c83a2e8ecb1f0144b8440d766be5fb0
+guid: 59dafbd712c104d4d9cfc3f7f2739eba
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6263180631366772091
-    second: "asag\u0131_0"
+      213: 2829232388215122354
+    second: unnamed_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "asag\u0131_0"
+      name: unnamed_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 51
-        height: 35
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 58ad6474666b419a0800000000000000
-      internalID: -6263180631366772091
+      spriteID: 2b9a79efdd3734720800000000000000
+      internalID: 2829232388215122354
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      "asag\u0131_0": -6263180631366772091
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
