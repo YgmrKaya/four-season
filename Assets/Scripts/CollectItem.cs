@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CollectItem : MonoBehaviour, ICollectable
 {
-    [SerializeField] InventorySystem inventorySystem;
+    [SerializeField] InventoryManager inventorySystem;
     [SerializeField] EquipSO equipSO;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
